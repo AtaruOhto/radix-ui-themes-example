@@ -9,6 +9,7 @@ function App() {
     <>
       <Link href="/">Home</Link>
       <Link href="/page1">Page1</Link>
+      
       <Route path="/" component={Home} />
       <Route path="/page1" component={Page1} />
     </>    
